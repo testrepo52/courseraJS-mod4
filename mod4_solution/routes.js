@@ -26,7 +26,7 @@
 
       // State for categories 
   		.state('categories', {
-  			url: '/categories', 
+  			url: 'categories', 
   			templateUrl: "src/categories.template.html",
         controller: "CategoryController as categoryList", 
         resolve : {
