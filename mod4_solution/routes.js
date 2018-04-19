@@ -20,7 +20,7 @@
       // State for home 
   		.state('home', {
   			url: '/', 
-  			templateUrl: "js/home.template.html"
+  			templateUrl: "../js/home.template.html"
   		})
 
 
@@ -44,7 +44,7 @@
 
       .state('items', {
         url : '/items/{itemId}', 
-        templateUrl: '/js/items/items.template.html', 
+        templateUrl: '../js/items/items.template.html', 
         controller: "ItemDetailController as itemDetail", 
       resolve: {
           items: ['$stateParams', 'MenuDataService',
