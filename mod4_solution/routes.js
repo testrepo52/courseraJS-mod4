@@ -20,7 +20,7 @@
       // State for home 
   		.state('home', {
   			url: '/', 
-  			templateUrl: "/home.template.html"
+  			templateUrl: "js/home.template.html"
   		})
 
 
